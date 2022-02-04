@@ -7,8 +7,8 @@ def myfunc(dishes,n,ans):
     else:
         ans += ord(dishes[n])        
         return myfunc(dishes,n+1,ans)
-dishes,ans,n = input(),0,0
 
+dishes = input()
 myfunc(dishes=dishes,n=0,ans=0)
 
 '''dishes = str(input())
